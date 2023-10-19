@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace Demonstrations {
     public class StackDemo : IDemonstration {
         public void Run() {
-
             var stackExample = new Stack<int>();
             stackExample.Push(15);
             stackExample.Push(20);
